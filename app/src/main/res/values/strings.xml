@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Elite: Trader</string>
+
+    <string name="title_section1">Stations</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_newStation">Add Station</string>
+    <string name="action_newItem">Add Item</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+</resources>

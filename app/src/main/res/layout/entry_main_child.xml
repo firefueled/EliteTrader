@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Item Name"
+        android:id="@+id/main_list_child_itemName" />
+
+    <TextView
+        android:text="Buy:"
+        style="@style/main_child_values" />
+
+    <TextView
+        style="@style/main_child_values"
+        android:id="@+id/main_list_child_itemBuy" />
+
+    <TextView
+        style="@style/main_child_values"
+        android:text="Sell:" />
+
+    <TextView
+        style="@style/main_child_values"
+        android:id="@+id/main_list_child_itemSell" />
+
+</LinearLayout>
